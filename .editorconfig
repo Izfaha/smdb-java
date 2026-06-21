@@ -1,0 +1,15 @@
+# Beritahu IDE bahwa ini adalah file konfigurasi utama
+root = true
+
+# Terapkan ke semua tipe file
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Khusus file konfigurasi (opsional, biasanya pakai 2 spasi)
+[*.{xml,json,yml,yaml,md}]
+indent_size = 2
